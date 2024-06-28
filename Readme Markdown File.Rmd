@@ -1,6 +1,8 @@
 ---
 title: "Readme"
 author: "Solomon Ayuba"
+date: "`r Sys.Date()`"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -14,9 +16,9 @@ This repo contains weekly practicals from the Introduction to R Programming (DTS
 Happy Coding!!
 
 ```{r setup}
-© Miva Open University (https://miva.university/bsc-in-data-science)
-Faculty: Computer Science
-Department: Data Science
+cat("© Miva Open University (https://miva.university/bsc-in-data-science)\n.")
+cat("Faculty: Computer Science\n")
+cat("Department: Data Science\n")
 ```
 
 NB: This project was initiated using R Studio IDE.

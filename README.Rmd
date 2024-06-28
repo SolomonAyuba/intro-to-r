@@ -1,0 +1,28 @@
+---
+title: "Readme"
+author: "Solomon Ayuba"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Information
+
+This repo contains weekly practicals from the Introduction to R Programming (DTS 211) course module; for the 200 level, 1st semester students of Data Science.
+
+Happy Coding!
+
+```{r setup}
+miva <-  ("© Miva Open University [https://miva.university/bsc-in-data-science].")
+faculty <- "Faculty: Computer Science"
+department <- "Department: Data Science"
+
+miva
+faculty 
+department
+```
+
+NB: This project was initiated using R Studio IDE.

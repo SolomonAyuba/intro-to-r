@@ -11,11 +11,3 @@ Department: Data Science
 ```
 
 NB: This project was initiated using R Studio IDE.
-
-```{r setup}
----
-title: "Readme"
-author: "Solomon Ayuba"
----
-
-```

@@ -1,12 +1,3 @@
----
-title: "Readme"
-author: "Solomon Ayuba"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Information
 
 This repo contains weekly practicals from the Introduction to R Programming (DTS 211) course module; for the 200 level, 1st semester students of Data Science.
@@ -20,3 +11,11 @@ Department: Data Science
 ```
 
 NB: This project was initiated using R Studio IDE.
+
+```{r setup}
+---
+title: "Readme"
+author: "Solomon Ayuba"
+---
+
+```

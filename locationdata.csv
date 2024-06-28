@@ -1,0 +1,16 @@
+rating,animal,country,sleep_hours,rain
+1,squirrel,Nigeria,9,TRUE
+2,hedgehog,Kenya,10,FALSE
+3,sloth,France,12,FALSE
+4,rabbit,China,8,TRUE
+5,dog,England,10,FALSE
+6,squirrel,Nepal,10,TRUE
+7,hedgehog,Angola,11,FALSE
+8,sloth,Burkina Faso,12,FALSE
+9,rabbit,Madagascar,9,TRUE
+10,dog,Paraguay,10,FALSE
+11,squirrel,Belgium,9,TRUE
+12,hedgehog,Comoros,10,FALSE
+13,sloth,Iceland,10,FALSE
+14,rabbit,Saint Pierre,12,TRUE
+15,dog,Saint Lucia,11,FALSE

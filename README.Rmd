@@ -16,13 +16,9 @@ This repo contains weekly practicals from the Introduction to R Programming (DTS
 Happy Coding!
 
 ```{r setup}
-miva <-  ("© Miva Open University [https://miva.university/bsc-in-data-science].")
-faculty <- "Faculty: Computer Science"
-department <- "Department: Data Science"
-
-miva
-faculty 
-department
+cat("© Miva Open University [https://miva.university/bsc-in-data-science]\n.")
+cat("Faculty: Computer Science\n")
+cat("Department: Data Science\n")
 ```
 
 NB: This project was initiated using R Studio IDE.

@@ -218,9 +218,8 @@ library("ggplot2")
 # Let’s look at the mortality rate of Nigeria since 1900 in a scaer plot.
 # Scatter plot
 
-## Enable/install the 'dplyr' & 'readr' package to use the read_csv() function
-library("dplyr")
-library("readr")
+## install the 'tidyverse' package to use the read_csv() function
+library("tidyverse")
 mort_rate <- read_csv("mortalitydata2.csv")
 
 # Let’s look at the mortality rate of Nigeria since 1900 in a scaer plot.

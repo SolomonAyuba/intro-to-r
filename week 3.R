@@ -1,9 +1,10 @@
 ## WEEK 3 - Data Input & Output and Data Frames
 ## Wed 29 May 2024
 
-# To display the current project directory and set the project directory.
+# To display the current project directory and set a project directory.
 # getwd()
 # setwd("~ /filepath")
+# comes in handy when you get a directory error
 
 ## Data Input Using read.table()
 #to create a data frame in R using read.table(), this assumes that the file is currently in the working directory
@@ -78,7 +79,7 @@ by(locationdata$sleep_hours, locationdata$animal, mean)
 # finding the effect of rain on each animal
 by(locationdata$rain, locationdata$animal, mean)
 
-?aggregate
+?aggregate # using the search funtion to readmore about 'aggregate'
 
 #indexing dataframes. Dataframes are indexed exactly he same way as with arrays
 locationdata[3,5]

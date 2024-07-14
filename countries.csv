@@ -1,0 +1,195 @@
+Country,Country Code,Nationality,Person
+AFGHANISTAN,AF,Afghan, an Afghan
+ALBANIA,AL,Albanian, an Albanian
+ALGERIA,DZ,Algerian, an Algerian
+ANDORRA,AD,Andorran, an Andorran
+ANGOLA,AO,Angolan, an Angolan
+ANTIGUA AND BARBUDA,AG,Antiguan or Barbudan, an Antiguan or Barbudan
+ARGENTINA,AR,Argentinian, an Argentinian
+ARMENIA,AM,Armenian, an Armenian
+AUSTRALIA,AU,Australian, an Australian
+AUSTRIA,AT,Austrian, an Austrian
+AZERBAIJAN,AZ,Azerbaijani, an Azerbaijani
+BAHAMAS,BS,Bahamian, a Bahamian
+BAHRAIN,BH,Bahraini, a Bahraini
+BANGLADESH,BD,Bangladeshi, a Bangladeshi
+BARBADOS,BB,Barbadian, a Barbadian
+BELARUS,BY,Belarusian, a Belarusian
+BELGIUM,BE,Belgian, a Belgian
+BELIZE,BZ,Belizean, a Belizean
+BENIN,BJ,Beninese, a Beninese
+BHUTAN,BT,Bhutanese, a Bhutanese
+BOLIVIA,BO,Bolivian, a Bolivian
+BOSNIA AND HERZEGOVINA,BA,Bosnian, a Bosnian
+BOTSWANA,BW,Botswanan, a Botswanan
+BRAZIL,BR,Brazilian, a Brazilian
+BRUNEI,BN,Bruneian, a Bruneian
+BULGARIA,BG,Bulgarian, a Bulgarian
+BURKINA FASO,BF,Burkinabe, a Burkinabe
+BURUNDI,BI,Burundian, a Burundian
+CABO VERDE,CV,Cape Verdean, a Cape Verdean
+CAMBODIA,KH,Cambodian, a Cambodian
+CAMEROON,CM,Cameroonian, a Cameroonian
+CANADA,CA,Canadian, a Canadian
+CENTRAL AFRICAN REPUBLIC,CF,Central African, a Central African
+CHAD,TD,Chadian, a Chadian
+CHILE,CL,Chilean, a Chilean
+CHINA,CN,Chinese, a Chinese
+COLOMBIA,CO,Colombian, a Colombian
+COMOROS,KM,Comorian, a Comorian
+CONGO,CG,Congolese, a Congolese
+COSTA RICA,CR,Costa Rican, a Costa Rican
+CROATIA,HR,Croatian, a Croat
+CUBA,CU,Cuban, a Cuban
+CYPRUS,CY,Cypriot, a Cypriot
+CZECH REPUBLIC,CZ,Czech, a Czech
+DENMARK,DK,Danish, a Dane
+DJIBOUTI,DJ,Djiboutian, a Djiboutian
+DOMINICA,DM,Dominican, a Dominican
+DOMINICAN REPUBLIC,DO,Dominican, a Dominican
+ECUADOR,EC,Ecuadorian, an Ecuadorian
+EGYPT,EG,Egyptian, an Egyptian
+EL SALVADOR,SV,Salvadoran, a Salvadoran
+EQUATORIAL GUINEA,GQ,Equatorial Guinean, an Equatorial Guinean
+ERITREA,ER,Eritrean, an Eritrean
+ESTONIA,EE,Estonian, an Estonian
+ESWATINI,SZ,Swazi, a Swazi
+ETHIOPIA,ET,Ethiopian, an Ethiopian
+FIJI,FJ,Fijian, a Fijian
+FINLAND,FI,Finnish, a Finn
+FRANCE,FR,French, a French
+GABON,GA,Gabonese, a Gabonese
+GAMBIA,GM,Gambian, a Gambian
+GEORGIA,GE,Georgian, a Georgian
+GERMANY,DE,German, a German
+GHANA,GH,Ghanaian, a Ghanaian
+GREECE,GR,Greek, a Greek
+GRENADA,GD,Grenadian, a Grenadian
+GUATEMALA,GT,Guatemalan, a Guatemalan
+GUINEA,GN,Guinean, a Guinean
+GUINEA-BISSAU,GW,Bissau-Guinean, a Bissau-Guinean
+GUYANA,GY,Guyanese, a Guyanese
+HAITI,HT,Haitian, a Haitian
+HONDURAS,HN,Honduran, a Honduran
+HUNGARY,HU,Hungarian, a Hungarian
+ICELAND,IS,Icelandic, an Icelander
+INDIA,IN,Indian, an Indian
+INDONESIA,ID,Indonesian, an Indonesian
+IRAN,IR,Iranian, an Iranian
+IRAQ,IQ,Iraqi, an Iraqi
+IRELAND,IE,Irish, an Irish person
+ISRAEL,IL,Israeli, an Israeli
+ITALY,IT,Italian, an Italian
+JAMAICA,JM,Jamaican, a Jamaican
+JAPAN,JP,Japanese, a Japanese
+JORDAN,JO,Jordanian, a Jordanian
+KAZAKHSTAN,KZ,Kazakhstani, a Kazakhstani
+KENYA,KE,Kenyan, a Kenyan
+KIRIBATI,KI,I-Kiribati, an I-Kiribati
+KOSOVO,XK,Kosovar, a Kosovar
+KUWAIT,KW,Kuwaiti, a Kuwaiti
+KYRGYZSTAN,KG,Kyrgyz, a Kyrgyz
+LAOS,LA,Lao, a Lao
+LATVIA,LV,Latvian, a Latvian
+LEBANON,LB,Lebanese, a Lebanese
+LESOTHO,LS,Lesotho, a Lesothoan
+LIBERIA,LR,Liberian, a Liberian
+LIBYA,LY,Libyan, a Libyan
+LIECHTENSTEIN,LI,Liechtensteiner, a Liechtensteiner
+LITHUANIA,LT,Lithuanian, a Lithuanian
+LUXEMBOURG,LU,Luxembourgish, a Luxembourger
+MADAGASCAR,MG,Madagascan, a Madagascan
+MALAWI,MW,Malawian, a Malawian
+MALAYSIA,MY,Malaysian, a Malaysian
+MALDIVES,MV,Maldivian, a Maldivian
+MALI,ML,Malian, a Malian
+MALTA,MT,Maltese, a Maltese
+MARSHALL ISLANDS,MH,Marshallese, a Marshallese
+MAURITANIA,MR,Mauritanian, a Mauritanian
+MAURITIUS,MU,Mauritian, a Mauritian
+MEXICO,MX,Mexican, a Mexican
+MICRONESIA,FM,Micronesian, a Micronesian
+MOLDOVA,MD,Moldovan, a Moldovan
+MONACO,MC,Monégasque, a Monégasque
+MONGOLIA,MN,Mongolian, a Mongolian
+MONTENEGRO,ME,Montenegrin, a Montenegrin
+MOROCCO,MA,Moroccan, a Moroccan
+MOZAMBIQUE,MZ,Mozambican, a Mozambican
+MYANMAR,MM,Burmese, a Burmese
+NAMIBIA,NA,Namibian, a Namibian
+NAURU,NR,Nauruan, a Nauruan
+NEPAL,NP,Nepalese, a Nepalese
+NETHERLANDS,NL,Dutch, a Dutch person
+NEW ZEALAND,NZ,New Zealander, a New Zealander
+NICARAGUA,NI,Nicaraguan, a Nicaraguan
+NIGER,NE,Nigerien, a Nigerien
+NIGERIA,NG,Nigerian, a Nigerian
+NORTH KOREA,KP,North Korean, a North Korean
+NORTH MACEDONIA,MK,Macedonian, a Macedonian
+NORWAY,NO,Norwegian, a Norwegian
+OMAN,OM,Omani, an Omani
+PAKISTAN,PK,Pakistani, a Pakistani
+PALAU,PW,Palauan, a Palauan
+PANAMA,PA,Panamanian, a Panamanian
+PAPUA NEW GUINEA,PG,Papua New Guinean, a Papua New Guinean
+PARAGUAY,PY,Paraguayan, a Paraguayan
+PERU,PE,Peruvian, a Peruvian
+PHILIPPINES,PH,Filipino, a Filipino
+POLAND,PL,Polish, a Pole
+PORTUGAL,PT,Portuguese, a Portuguese person
+QATAR,QA,Qatari, a Qatari
+ROMANIA,RO,Romanian, a Romanian
+RUSSIA,RU,Russian, a Russian
+RWANDA,RW,Rwandan, a Rwandan
+SAINT KITTS AND NEVIS,KN,Saint Kitts and Nevis, a Saint Kitts and Nevis
+SAINT LUCIA,LC,Saint Lucian, a Saint Lucian
+SAINT VINCENT AND THE GRENADINES,VC,Saint Vincent and the Grenadines, a Saint Vincent and the Grenadines
+SAMOA,WS,Samoan, a Samoan
+SAN MARINO,SM,Sammarinese, a Sammarinese
+SAO TOME AND PRINCIPE,ST,Sao Tomean, a Sao Tomean
+SAUDI ARABIA,SA,Saudi, a Saudi
+SENEGAL,SN,Senegalese, a Senegalese
+SERBIA,RS,Serbian, a Serb
+SEYCHELLES,SC,Seychellois, a Seychellois
+SIERRA LEONE,SL,Sierra Leonean, a Sierra Leonean
+SINGAPORE,SG,Singaporean, a Singaporean
+SLOVAKIA,SK,Slovak, a Slovak
+SLOVENIA,SI,Slovene, a Slovene
+SOLOMON ISLANDS,SB,Solomon Islander, a Solomon Islander
+SOMALIA,SO,Somali, a Somali
+SOUTH AFRICA,ZA,South African, a South African
+SOUTH KOREA,KR,South Korean, a South Korean
+SOUTH SUDAN,SS,South Sudanese, a South Sudanese
+SPAIN,ES,Spanish, a Spaniard
+SRI LANKA,LK,Sri Lankan, a Sri Lankan
+SUDAN,SD,Sudanese, a Sudanese
+SURINAME,SR,Surinamese, a Surinamese
+SWEDEN,SE,Swedish, a Swede
+SWITZERLAND,CH,Swiss, a Swiss person
+SYRIA,SY,Syrian, a Syrian
+TAIWAN,TW,Taiwanese, a Taiwanese
+TAJIKISTAN,TJ,Tajik, a Tajik
+TANZANIA,TZ,Tanzanian, a Tanzanian
+THAILAND,TH,Thai, a Thai
+TIMOR-LESTE,TL,East Timorese, an East Timorese
+TOGO,TG,Togolese, a Togolese
+TONGA,TO,Tongan, a Tongan
+TRINIDAD AND TOBAGO,TT,Trinidadian and Tobagonian, a Trinidadian and Tobagonian
+TUNISIA,TN,Tunisian, a Tunisian
+TURKEY,TR,Turkish, a Turk
+TURKMENISTAN,TM,Turkmen, a Turkmen
+TUVALU,TV,Tuvaluan, a Tuvaluan
+UGANDA,UG,Ugandan, a Ugandan
+UKRAINE,UA,Ukrainian, a Ukrainian
+UNITED ARAB EMIRATES,AE,Emirati, an Emirati
+UNITED KINGDOM,GB,British, a Briton
+UNITED STATES,US,American, an American
+URUGUAY,UY,Uruguayan, a Uruguayan
+UZBEKISTAN,UZ,Uzbek, an Uzbek
+VANUATU,VU,Ni-Vanuatu, a Ni-Vanuatu
+VATICAN CITY,VA,Holy See, a Holy See
+VENEZUELA,VE,Venezuelan, a Venezuelan
+VIETNAM,VN,Vietnamese, a Vietnamese
+YEMEN,YE,Yemeni, a Yemeni
+ZAMBIA,ZM,Zambian, a Zambian
+ZIMBABWE,ZW,Zimbabwean, a Zimbabwean

@@ -1,6 +1,10 @@
 ## WEEK 3 - Data Input & Output and Data Frames
 ## Wed 29 May 2024
 
+# To display the current project directory and set the project directory.
+# getwd()
+# setwd("~ /filepath")
+
 ## Data Input Using read.table()
 #to create a data frame in R using read.table(), this assumes that the file is currently in the working directory
 #the argument header = T states that the first line contains column names

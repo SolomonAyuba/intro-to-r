@@ -1,4 +1,4 @@
-## WEEK 1 - Introduction to R Programming
+c## WEEK 1 - Introduction to R Programming
 
 
 #list packages that are currently attached to the system

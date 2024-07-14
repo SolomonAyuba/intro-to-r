@@ -235,8 +235,8 @@ data <- read_excel("datasciencecourse.xlsx", sheet = "Sheet 1", range = "A1:B10"
 sheets <- c("Sheet 1", "Sheet 2")
 data_list <- lapply(sheets, function(s) read_excel("doesntexist.xlsx", sheet = s))
 
-#Combining with Other Parameters
-#such as col_names, col_types, etc.
+# Combining with Other Parameters
+# such as col_names, col_types, etc.
 
 
 ## Find Week 4 on Week 4.R script.

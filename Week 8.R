@@ -230,7 +230,7 @@ grep("Z", Country, value = T)
 # Successive years start on dierent days of the week. There are months with
 # dierent numbers of days. Leap years have an extra day in February.
 # Americans and Europeans place the day and the month dierently: For the 
-# former, 3/4/2006 represents March 4, while for the laer, it signifies April 3.
+# former,3/4/2006 represents March 4, while for the laer, it signifies April 3.
 
 # Calculations involving times are complicated by the operation of time zones
 # and daylight saving schemes in dierent countries.
@@ -319,7 +319,7 @@ ISOdate(year = 2024,
 class(now())
 
 # now() returns current date/time as a POSIXct object - POSIX stands for 
-# Portable Operating System Interface. It is a family of standards specified for 
+# Portable Operating System Interface.It is a family of standards specified for 
 # maintaining compatibility between dierent operating systems.
 
 # The unclass() function shows how times are stored internally as the number 
@@ -337,8 +337,8 @@ unclass(X_date)
 
 # POSIXlt which stands for local time represents the following in a list:
 # seconds - sec, minutes - min, hour of the day - hour, day of the month - mday,
-# month of the year (0-11) - mon , years since
-# 1900 - year, day of week - wday, day of year - yday, daylight saving time flag 
+# month of the year (0-11) - mon , years since 1900 - year, day of week - wday, 
+# day of year - yday, daylight saving time flag 
 # - isdst, time zone - zone, oset in
 # seconds from GMT - gmtoff.
 
@@ -412,7 +412,7 @@ Sys.timezone()
 # reducing the clocks one hour in autumn (fall back).
 
 # In R, the dst() function is used to see if daylight savings is in effect. 
-# It returns TRUE if daylight saving is in force, FALSE if not and NA if unknown.
+# It returns TRUE if daylight saving is in force,FALSE if not and NA if unknown.
 Sys.Date()
 dst(Sys.Date())
 
@@ -462,7 +462,7 @@ as.POSIXct("July 14, 2024 01:53:23", tz = "UTC", format = "%B %d, %Y %H:%M:%S")
 # strptime() function to convert character data to date/time data.
 
 # As an example, the data we have been supplied has date/time as character 
-# data and in the format YYYYMMDD - we will use strptime() to convert this to an 
+# data and in the format YYYYMMDD -we will use strptime() to convert this to an 
 # object of class POSIXlt:
 X_date <- strptime("20240715", format ="%Y%m%d")
 class(X_date)

@@ -499,3 +499,173 @@ head(business)
 
 
 ## Find Week 9 on Week 9.R script.
+
+
+## Interactive Learning - Apply Functions for Element-Wise Operations
+# The ‘apply()’ Function in R
+# The ‘apply()’ function in R is one of the cornerstones of data manipulation, 
+# and it comes in very handy when dealing with matrices. The function allows you 
+# to apply a function either row-wise or column-wise. Here's the basic syntax:
+
+# Creating a 3x3 Matrix 
+# Let's see this in action with a simple example. Creating a 3x3 Matrix
+# First, let's create a 3x3 matrix.
+
+mat <- matrix(1:9, nrow = 3)
+mat
+# applying a function row-wise
+# calculate the sum of each row
+row_sums <- apply(mat, MARGIN = 1, FUN = sum) 
+# MARIN = 2 (is for columns); FUN is the function to be applied.
+row_sums
+
+# Applying a Function Column-wise
+# Similarly, to apply a function to each column, use ‘MARGIN=2’.
+col_sums <- apply(mat, MARGIN = 2, FUN = sum)
+col_sums
+
+# Implementing with actual codes.
+real_mat <- matrix(c(1,2,3,4,5,6,7,8,9), nrow = 3)
+real_mat
+
+# Sum each row
+real_matRSum <- apply(real_mat, 1, sum)
+real_matRSum
+
+# Sum each column
+real_matCSum <- apply(real_mat, 2, sum )
+real_matCSum
+
+# Print results
+cat("Row sums are: ", toString(real_matRSum), "\n")
+cat("Columns sums are: ", toString(real_matCSum), "\n")
+
+# The ‘lapply()’ Function in R
+
+# In R, the `lapply()` function is one of the important members of the apply 
+# family of functions. It applies a given function to each element of a list and
+# returns a list as well. The basic syntax of the function is as follows:
+# lapply(X,FUN,..) 
+# - `X`: The list or vector that will be processed.
+# - `FUN`: The function that will be used for processing.
+# - `...`: Any extra arguments that need to be passed to `FUN`.
+
+# Creating a Simple List
+# 
+# Let's start by creating a simple list: 
+
+my_list <- list(1,4,9)
+print(my_list)
+
+# Applying a Function to Each Element
+# To apply a function to each element of the list, you can use:
+# Apply the square root function to each element of my_list 
+
+sqrt_list <- lapply(my_list, sqrt)
+print(sqrt_list)
+
+# ‘sapply()’ Function
+# The ‘sapply()’ function is an optimised version of ‘lapply()’ that tries to
+# simplify the output to a more "user-friendly" data structure, such as a vector 
+# or matrix. This is particularly useful when you do not want the 
+# function's output to be in list form but prefer a simpler data structure.
+
+#e.g Consider a list with the numbers 1, 2, and 3.
+# Using lapply
+result_lapply <- lapply(list(1,2,3), sqrt)
+print(result_lapply)
+
+# Using sapply()
+result_sapply <- sapply(list(1,2,3), sqrt)
+print(result_sapply)
+
+# As you can see, `sapply()` returns a vector instead of a list.
+
+# How to use ‘sapply()’
+# The basic syntax is almost identical to ‘lapply()’:
+#   sapply(LIST, FUNCTION, ...)
+# 1. ‘LIST’: The list or vector to be manipulated.
+# 2. ‘FUNCTION’: The function to be applied to each element of the list.
+# 3. ‘...’: Additional arguments to pass to the function.
+
+
+# ‘mapply()’ Function
+# 
+# The ‘mapply()’ function in R is a multivariate version of ‘sapply()’. This
+# function applies a function in an element-wise fashion to each corresponding
+# element of multiple lists. The signature of the ‘mapply()’ function is quite 
+# straightforward:
+
+# mapply(
+#   FUN,            # 1. The function to apply.
+#   ...,            # 2. The list(s) or vector(s) of values to manipulate.
+#   MoreArgs = NULL,  # 3. A list of other arguments to 'FUN'.
+# SIMPLIFY = TRUE, #4.Logical. Should the result be simplified? Default is TRUE.
+#   USE.NAMES = TRUE    # 5. Logical. Should the names be preserved?
+# )
+
+# To make the concept of ‘mapply()’ concrete, let's consider two lists, 
+# ‘list1’ and ‘list2’.
+
+list1 <- list(1,2,3)
+list2 <- list(4,5,6)
+result <- mapply(sum,list1,list2)
+print(result)
+
+
+# Real-World Application: Weather Dataset Analysis with ‘apply()’
+# When working with complex, real-world datasets such as weather data, 
+# the ‘apply()’ function can be a powerful tool for summarising columns. 
+# Here's how you can use ‘apply()’ to find the mean, minimum, and maximum 
+# of each column in a weather dataset.
+
+# Example
+# 
+# Suppose you have a weather dataset `weather_data` with columns 
+# "Temperature", "Humidity", and "Wind Speed".
+
+weather_data <- data.frame(Temperature = c(20,25,30,35,40), 
+                           Humidity = c(50,55,60,65,70),
+                           Wind_Speed = c(10,15,2,25,30))
+
+# Calculate the mean of each column
+weather_mean <- apply(weather_data, 2, mean)
+print(paste("Mean values: ", weather_mean))
+
+# Calculate the minimum of each column
+min_values <- apply(weather_data, 2, min)
+print(paste("Minimum value: ", min_values))
+
+#Calculate the maximum of each column
+max_value <- apply(weather_data, 2, max)
+print(paste("Maximum value: ", max_value))
+
+# ‘apply()’ Function
+# This function operates on the rows or columns of a matrix. 
+# The syntax is ‘apply(matrix, 1 or 2, function_name)’.
+# 
+## mat <- matrix(1:9, nrow = 3)
+## apply(mat, 1, sum) # Sums each row
+
+#‘lapply()’ Function
+
+# This function operates on the rows or columns of a matrix. The syntax is 
+# ‘apply(matrix, 1 or 2, function_name)’.
+## lapply(list(1, 2, 3), sqrt) # Calculates the square root of each list element
+
+
+#‘sapply()’ Function
+#This function simplifies the output of ‘lapply()’ to a vector or matrix when 
+# possible.
+# sapply(list(1, 2, 3), sqrt) # Returns a vector instead of a list
+
+
+# ‘mapply()’ Function
+# 
+# This function is used for element-wise operations on multiple lists. 
+# 
+# mapply(sum, list(1, 2, 3), list(4, 5, 6)) # Adds corresponding elements in two 
+# lists
+
+
+## Find Week 9 on Week 9.R script.

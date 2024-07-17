@@ -1,10 +1,13 @@
 # WEEK 10: Debugging and Profiling
 ## Sun 14 July 2024
 
+x1 <- c(1, 2, na)
+x2 <- c(na, na ,na)
+
+any(is.na(x2))
 
 ## Common errors in R code
 # An example of a warning that occurs when using R:
-
 log(-10)
 
 # This warning informs you that the log of a negative number results in a NaN 

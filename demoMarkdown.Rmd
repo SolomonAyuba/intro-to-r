@@ -1,0 +1,68 @@
+---
+title: "Test"
+author: "[Solomon Ayuba](linktr.ee/sowlbrown)"
+date: "`r Sys.Date()`"
+output: html_document
+toc: true
+keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Hands on Text Formatting
+
+Some Examples:
+
+```{r}
+Single "* *" makes text *italic*
+Doube "** **" makes text **BOLD**
+Double "~~ ~~" ~~Strikes through~~ text
+For superscript\^2
+For links [Click This Link] (https://#)
+```
+
+## Components of an R Markdown File
+
+Let’s load the tidyverse package and Titanic.csv file, we will insert a chunk at the start and call it ‘setup’. Since we don’t want this code or its output to show in the HTML document, we add an include = FALSE option after the chunk name ({r setup, include = FALSE}).
+
+```{r setup, include=FALSE}
+library(tidyverse)
+Titanicdata <- read.csv("Titanic.csv")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Customizing Chunk Output
+
+Mid-Lesson Question: What happens if you use eval = FALSE and echo = FALSE? What is the dierence between this and include = FALSE? Create a chunk with {r eval = FALSE, echo = FALSE},
+
+```{r eval=FALSE, echo=FALSE}
+head(Titanicdata)
+```
+
+eval = FALSE and echo = FALSE will neither run the code in the chunk, nor show the code in the knied document. The code chunk essentially doesn’t exist in the knied document as it was never run. Whereas include = FALSE will run the code and store the output for later use.
+
+```{r include=FALSE}
+head(TitanicData)
+```

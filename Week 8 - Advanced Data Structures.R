@@ -627,7 +627,7 @@ print(result)
 weather_data <- data.frame(Temperature = c(20,25,30,35,40), 
                            Humidity = c(50,55,60,65,70),
                            Wind_Speed = c(10,15,2,25,30))
-
+weather_data
 # Calculate the mean of each column
 weather_mean <- apply(weather_data, 2, mean)
 print(paste("Mean values: ", weather_mean))

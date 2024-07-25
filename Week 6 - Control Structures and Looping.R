@@ -19,7 +19,11 @@ ceiling(4.6232323)
 floor(4.5323424)
 # Live lesson end
 
-
+z <- 0
+while ( z <= 25){
+  print(z)
+  z <- z+1
+}
 
 # IF - ELSE statement
 
